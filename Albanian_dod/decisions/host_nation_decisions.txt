@@ -1,0 +1,90 @@
+political_decisions = {
+
+	player_alliances = { # Credit to Reno
+		picture = host_nation
+		alert = yes
+		potential = {
+			tag = SIK
+			ai = no
+		}
+		allow = { 
+			tag = SIK
+			ai = no
+		}
+		effect = {
+			any_country = {
+				limit = {
+					ai = no
+				}
+				create_alliance = SIK				
+			}
+		}
+	}
+	
+	Kick_player = { # Credit to Zombie
+        potential = {
+ 			tag = SIK
+            ai = no
+        }
+        allow = {
+			tag = SIK
+            ai = no
+        }
+        effect = {
+            any_country = {
+                Limit = {
+                    NOT = {
+                        alliance_with = THIS
+                        has_country_flag = host_nation
+                    }
+                    ai = no
+                }
+                country_event = 50004
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }	
+	
+	infamy_change = { # Credit to me, accompanying event file in host_nation_events in the events folder
+		picture = host_nation
+		alert = no
+		potential = {
+			tag = SIK
+			ai = no
+		}
+		allow = {
+		}
+		effect = {
+			SIK = {
+				country_event = 12817513
+			}
+		}
+	}
+	
+	stop_China_civ = {
+		picture = host_nation
+		alert = no
+		potential = {
+			tag = SIK
+			ai = no
+		}
+		allow = {
+		}
+		effect = {
+			MCK = {
+				country_event = 12817514
+			}
+			TAI = {
+				country_event = 12817514
+			}
+			MIG = {
+				country_event = 12817514
+			}
+			TNG = {
+				country_event = 12817514
+			}
+		}
+	}
+}

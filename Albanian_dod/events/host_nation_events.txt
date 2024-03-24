@@ -1,0 +1,166 @@
+#Infamy decay changing event
+country_event = { # Credit to me
+	id = 12817513
+	title = "EVTNAME12817513"
+	desc = "EVTDESC12817513"
+	picture = "host_nation"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTG12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_gain_4
+	}
+	option = {
+		name = "EVTOPTH12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_gain_3
+	}
+	option = {
+		name = "EVTOPTI12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_gain_2
+	}
+	option = {
+		name = "EVTOPTJ12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_gain_1
+	}
+	option = {
+		name = "EVTOPTA12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+	}
+
+	option = {
+		name = "EVTOPTB12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_decay_1
+	}
+	
+	option = {
+		name = "EVTOPTC12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_decay_2
+	}
+	
+	option = {
+		name = "EVTOPTD12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_decay_3
+	}
+	
+	option = {
+		name = "EVTOPTE12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_decay_4
+	}
+	
+	option = {
+		name = "EVTOPTF12817513"
+		clr_global_flag = infamy_decay_1
+		clr_global_flag = infamy_decay_2
+		clr_global_flag = infamy_decay_3
+		clr_global_flag = infamy_decay_4
+		clr_global_flag = infamy_decay_5
+		clr_global_flag = infamy_gain_1
+		clr_global_flag = infamy_gain_2
+		clr_global_flag = infamy_gain_3
+		clr_global_flag = infamy_gain_4
+		set_global_flag = infamy_decay_5
+	}
+}
+
+country_event = { # Stop China civing, credit to me
+	id = 12817514
+	title = "Save the Economy"
+	desc = "Causes AIs to lose unciv reforms, players pick the 2nd decision if this was clicked accidentally"
+	picture = "host_nation"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "I fucking hate China!!"
+		remove_random_economic_reforms = 10
+		remove_random_military_reforms = 10
+		ai_chance = { 
+		    factor = 100
+		} 		
+	}
+	
+	option = {
+		name = "Plz no hurt I am a defenceless player"
+	}
+}
