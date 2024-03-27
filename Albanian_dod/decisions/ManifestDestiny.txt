@@ -127,6 +127,12 @@ political_decisions = {
 			VIN_10 = {
 				add_core = NBG
 			}
+			NA_8 = {
+				add_core = NBG
+			}
+			TEX_134 = {
+				add_core = NBG
+			}
 		}
 	}
 	
